@@ -8,4 +8,5 @@ Promise :- Can be pending, resolved and Rejected.
 If a promise is fullfilled we have to get a task done. I.E success message
 
 
-Beautiful example of promise chaining 
+Beautiful example of promise chaining.
+Async function alaways retunrs a promise.
