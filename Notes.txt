@@ -10,3 +10,6 @@ If a promise is fullfilled we have to get a task done. I.E success message
 
 Beautiful example of promise chaining.
 Async function alaways retunrs a promise.
+
+IIFE:- executes the code automatically. Used genrally when we have 
+to call a function once. a function which is immediately invoked.
