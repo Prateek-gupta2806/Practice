@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: black;
+    
+}
+
+
+.navbar {
+    border: 1px solid darkgoldenrod;
+    height: 40px;
+    width: 80%;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left: 20px;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 15px;
+
+
+}
+
+.menu {
+    height: 32px;
+    border-radius: 20px;
+    width: 15%;
+    background-color: maroon;
+    text-align: center;
+    color: white;
+    line-height: 32px;
+    font-size: 1.5rem;
+    /* box-shadow: 0 0 1rem  rgba(222, 161, 18, 0.658); */
+    margin-left: 10px;
+    margin-top: 5px;
+
+}
+
+
+.search-input {
+
+    height: 28px;
+    margin-top: 5px;
+    /* padding: 0.5rem; */
+    text-align: center;
+    
+    
+    border-radius: 20px;
+
+
+
+
+}

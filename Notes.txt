@@ -1,0 +1,11 @@
+THis is a Notes pdf. 
+CALL BACK HELL:- When there are callbakcs inside callbakcs it is called as callback hell. Nested callbacks. 
+TO solve call back hell we have a tool named promises.
+
+
+Promise :- Can be pending, resolved and Rejected.
+
+If a promise is fullfilled we have to get a task done. I.E success message
+
+
+Beautiful example of promise chaining 
