@@ -32,3 +32,5 @@ You don't need to know how the kitchen works—you just get what you asked for.
 APIs let two software systems talk to each other.
 You can send a request and get a response.
 It hides all the complex stuff behind the scenes.
+
+API calls work on response and Request. status = 200 means everything ok.

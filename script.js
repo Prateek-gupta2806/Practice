@@ -78,10 +78,17 @@
 //     await getData(3);
 // }) ();
 
-const URL = "https://cat-fact.herokuapp.com/facts"
-
+// const URL = "https://cat-fact.herokuapp.com/facts"
+const URL = "https://images.dog.ceo/breeds/pariah-indian/The_Indian_Pariah_Dog.jpg"
 
 let promise = fetch (URL);
+console.log(promise);
+
+const getFacts = async () => {
+    console.log("getting data......")
+    let response = await fetch(URL);
+    console.log(response.status);
+}
 
 
   
