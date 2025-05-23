@@ -14,4 +14,21 @@ Async function alaways retunrs a promise.
 IIFE:- executes the code automatically. Used genrally when we have 
 to call a function once. a function which is immediately invoked.
 
+
+
+
 API CALLING NOTES :- 
+
+API stands for Application Programming Interface.
+
+In simple words, it's like a waiter in a restaurant.
+You (the customer) look at the menu (the available features).
+You tell the waiter (API) what you want.
+The waiter goes to the kitchen (the system or server) and brings back the food (data or result).
+You don't need to know how the kitchen works—you just get what you asked for.
+
+
+🔹 In Tech Terms:
+APIs let two software systems talk to each other.
+You can send a request and get a response.
+It hides all the complex stuff behind the scenes.
