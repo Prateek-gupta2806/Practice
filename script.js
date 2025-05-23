@@ -42,46 +42,46 @@
 // };
 
 // console.log ("Fetching data1....");
-// asyncFunc1().then((res) => {
-//     console.log ("Fetching data2....");
-//     asyncFunc2().then((res) => {});
-// });
+// // asyncFunc1().then((res) => {
+// //     console.log ("Fetching data2....");
+// //     asyncFunc2().then((res) => {});
+// // });
 
 
 
-function getData(dataId) {
-    return new Promise ((resolve, reject) => {
-        setTimeout( () => {
-            console.log("data", dataId);
-            resolve("success");
+// function getData(dataId) {
+//     return new Promise ((resolve, reject) => {
+//         setTimeout( () => {
+//             console.log("data", dataId);
+//             resolve("success");
             
-        },2000);
-    });
+//         },2000);
+//     });
 
-};
+// };
 
-async function getAlldata() {
-    console.log ("getting data1....");
-    await getData(1);
-    console.log ("getting data2....")
-    await getData(2);
-    console.log ("getting data3....")
-    await getData(3);
-}
+// async function getAlldata() {
+//     console.log ("getting data1....");
+//     await getData(1);
+//     console.log ("getting data2....")
+//     await getData(2);
+//     console.log ("getting data3....")
+//     await getData(3);
+// }
 
-(async function () {
-    console.log ("getting data1....");
-    await getData(1);
-    console.log ("getting data2....")
-    await getData(2);
-    console.log ("getting data3....")
-    await getData(3);
-}) ();
+// (async function () {
+//     console.log ("getting data1....");
+//     await getData(1);
+//     console.log ("getting data2....")
+//     await getData(2);
+//     console.log ("getting data3....")
+//     await getData(3);
+// }) ();
+
+const URL = "https://cat-fact.herokuapp.com/facts"
 
 
-
-
-
+let promise = fetch (URL);
 
 
   
