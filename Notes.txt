@@ -13,3 +13,5 @@ Async function alaways retunrs a promise.
 
 IIFE:- executes the code automatically. Used genrally when we have 
 to call a function once. a function which is immediately invoked.
+
+API CALLING NOTES :- 
